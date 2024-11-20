@@ -1,11 +1,9 @@
 # Concepts in Object Oriented Programming
 
 ## Class
-
 - Template (blueprint) for the creation of an object
 
 ### Attribute (Parameter) 
-
 - Descriptions of an object. (First name, last name, class, etc.)
 - Two different types of attributes:
 - Instance attribute (applies to a specific instance)
@@ -23,3 +21,11 @@
     - does not have access to class or instance attributes but performs action within the class
 - Magic method:
     - reserved methods that perform a specific task (`__str__`)
+
+## Inheritance
+- Allows us to define a class that inherits all the methods and properties from another class.
+- Parent class (Student)
+- Child class (Graduate student)
+
+## Polymorphism
+- Methods/functions/operators with the same name that can be executed on many objects or classes.
